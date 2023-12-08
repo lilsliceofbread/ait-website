@@ -1,0 +1,55 @@
+.viewport-content {
+    font-size: 2em;
+}
+
+.business-info {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.info-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.info-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.plans {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+    width: 30%;
+    margin: 1% 1%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    font-size: 1em;
+}
+
+.plan p {
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+}

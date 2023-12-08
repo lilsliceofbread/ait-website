@@ -1,0 +1,101 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Montserrat', Helvetica;
+    background-color: #333;
+}
+
+canvas {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header img {
+    max-width: 15%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.viewport {
+    background-size: cover;
+    height: 15%;
+    color: #fff;
+    padding: 0;
+}
+
+#above-canvas {
+    z-index: 1;
+}
+
+.viewport-content {
+    display: inline-block;
+    margin-left: 5%;
+    padding: 100px;
+    max-width: 40%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.prices {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: indianred;
+}

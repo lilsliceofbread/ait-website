@@ -1,0 +1,188 @@
+body {
+    background-color:  white;
+}
+
+.viewport-content a {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.reviews {
+    position: relative;
+    display: block;
+    background-color: white;
+    color: #333;
+    padding: 40px 0;
+}
+
+.review-text {
+    display: inline-block;
+    max-width:35%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-right: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    margin-left: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.review-img {
+    display: inline-block;
+    max-width: 55%;
+    height: auto;
+    margin-left: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.review {
+    display: inline-block; 
+    margin: 0 20px 0;
+    text-align: left;
+    padding: 20px;
+}
+
+.review i {
+    color: white;
+}
+
+.review h3 {
+    font-size: 1.3em;
+}
+
+.review p {
+    font-size: 1.7em;
+}
+
+.review img {
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+}
+
+.business-info {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.info-content {
+    max-width: 50%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.info-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.info-content p {
+    font-size: 1.5em;
+}
+
+.info-content a {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.plans {
+    background-color: white;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.plans h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.plans .plan {
+    display: inline-block;
+    width: 20%;
+    margin: 0 1%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    font-size: 24px;
+}
+
+.plan p {
+    margin: 10px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #333;
+    max-width: 25%;
+    padding: 40px 0;
+    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.contact-p {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contact .btn {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+
+    /* this centers these vertically */
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.contact p {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1em;
+    float: center;
+
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
